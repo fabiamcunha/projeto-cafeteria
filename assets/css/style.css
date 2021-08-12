@@ -1,0 +1,43 @@
+body{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+#home{
+    background-color: #fff;
+}
+
+.logo{
+    font-family:'Style Script', cursive;
+}
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+}
+.row{   
+    margin-top: 30px;
+}
+
+.coffee{
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+
+}
+.card{
+    background-color:#fff;
+    transition: 1s ease;
+}
+.card:hover{
+ background-color:rgb(63, 38, 5);
+ transform: translateY(-1.5em);
+ color: white;
+ 
+}
+.card .h4{
+    transition-delay:0.5s ease;
+}
+.card p{
+    transition-delay: 0.1s ease;
+}
