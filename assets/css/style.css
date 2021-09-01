@@ -24,6 +24,14 @@ body{
     background-size: cover;
     color:#fff;   
 }
+.left{
+    margin-top: 50px;
+    color:#565048 ;
+    float: right;
+    width: 50%;
+    height: 500px;
+
+}
 
 /* service */
 #service{
@@ -50,16 +58,21 @@ body{
 .card p{
     transition-delay: 0.1s ease;
 }
-footer{
-    margin-top: 80px;
-}
 
+/* GALERIA */
 
 .coffee{
     margin: 5px;
     width: 200px;
     height: 150px;
 
+}
+button{
+    background-color: #565048;
+    color: #fff;
+    padding: 4px 12px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 /*-------- footer ------*/
@@ -114,4 +127,7 @@ text-decoration: none;
 .copyright{
     margin-top: 50px;
     text-align: center;
+}
+footer{
+    margin-top: 80px;
 }
