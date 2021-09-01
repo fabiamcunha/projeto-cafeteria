@@ -1,3 +1,4 @@
+/* base */
 body{
  padding: 0;
  margin: 0;
@@ -12,20 +13,28 @@ body{
 }
 
 .title{
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
+}
+/* about */
+#about{
+    height: 500px;
+    background-image: url("../imagen/bghistorycoffe.jpg");
+    background-position: 70% 50%;
+    background-size: cover;
+    color:#fff;   
+}
+
+/* service */
+#service{
+    background-color: #F0E5D5;
 }
 .row{   
     margin-top: 30px;
 }
 
-.coffee{
-    margin: 5px;
-    width: 350px;
-    height: 250px;
-
-}
 .card{
+    color:#565048;
     background-color:#fff;
     transition: 1s ease;
 }
@@ -40,4 +49,69 @@ body{
 }
 .card p{
     transition-delay: 0.1s ease;
+}
+footer{
+    margin-top: 80px;
+}
+
+
+.coffee{
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+
+}
+
+/*-------- footer ------*/
+footer{
+    padding: 50px 0;
+    color:#fff;
+    background: #F69C1A ;
+    
+}
+footer h3{
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:link{
+    text-decoration: none;
+
+}
+footer a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:visited{
+text-decoration: none;
+}
+
+.social{
+    text-align: end;
+    margin-right: 100px;
+
+}
+.social a{
+ display: inline-block;
+ width: 30px;
+ 
+}
+.social i{
+    color: cornsilk;
+}
+.copyright{
+    margin-top: 50px;
+    text-align: center;
 }
