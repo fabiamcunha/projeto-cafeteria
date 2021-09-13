@@ -1,14 +1,19 @@
 /* base */
-body{
+*{
  padding: 0;
  margin: 0;
  box-sizing: border-box;
+ list-style: none;
 }
+
 #home{
-    background-color: #fff;
+    height: 200px;
+    background-color: rgb(100, 52, 52);
 }
 
 .logo{
+    font-size: 24px;
+    margin: 5px 12px;
     font-family:'Style Script', cursive;
 }
 
@@ -16,20 +21,23 @@ body{
     padding-top: 50px;
     text-align: center;
 }
-/* about */
+
+/*--------- sobre------- */
 #about{
-    height: 500px;
+
+    height: 100vh;
     background-image: url("../imagen/bghistorycoffe.jpg");
     background-position: 70% 50%;
     background-size: cover;
-    color:#fff;   
+ 
 }
+
 .left{
     margin-top: 50px;
     color:#565048 ;
     float: right;
     width: 50%;
-    height: 500px;
+    height: auto;
 
 }
 
@@ -130,4 +138,23 @@ text-decoration: none;
 }
 footer{
     margin-top: 80px;
+}
+
+
+/*----- media  ----*/
+
+@media (max-width:700px){
+    #about{
+        width: 100%;
+         height: auto;
+    }
+    .left{
+        width:80%;
+        margin-right:30px ;
+        
+    }
+    .coffee{
+        width: 80%;
+    }
+
 }

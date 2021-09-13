@@ -24,28 +24,39 @@
     
 
     <!-- barra navegação -->
-    <header id=" home ">
-        <nav class="navbar navbar-expand-sm bg-light d-flex justify-content-between ">
-            <div class="logo font-weight-bold">
-                COF
-                <img src="assets/imagen/logo2.jpg" alt="">
-                FEE
-            </div>
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">Empresa</a></li>
-                <li class="nav-item"><a class="nav-link" href="#service">Produtos & Serviços</a></li>
-                <li class="nav-item"><a class="nav-link"href="#imagens">Contatos</a></li>
-
-            </ul>
-
-
-        </nav>
+    <header id="home ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">coffee</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navegation">
+                <ul class="navbar-nav w-100 mx-auto ">
+                    <li class="nav-item ">
+                         <a class="nav-link" href="#">Home </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+              </ul>
+             
+          </nav>
     </header> <!-- fim navegação -->
    
     <!-- ----inicio carrossel -->
     <section id="capa">
   <div id="slideshow" class="slide carousel">
+      <!--  botao de passar caroosel para  o lado-->
         <ol class="carousel-indicators">
             <li data-target="#slideshow" data-slide-to="0" class="active"></li>
             <li data-target="#slideshow" data-slide-to="1"></li>
@@ -53,192 +64,190 @@
           
         </ol>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/imagen/capa5.jpg"class="img-fluid" alt="coffee">
-                <div class="carousel-caption d-none d-md-block ">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/imagen/capa5.jpg"class="img-fluid" alt="coffee">
+                    <div class="carousel-caption d-none d-md-block ">
+                            <h1>COFFEE</h1>
+                            <p>Perfect caffee breakfast</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/imagen/capa4.jpg" class="img-fluid" alt="cake">
+                    <div class="carousel-caption d-none d-md-block ">
                         <h1>COFFEE</h1>
                         <p>Perfect caffee breakfast</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/imagen/capa3.jpg" class="img-fluid" alt="breakfast">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h1>COFFEE</h1>
+                        <p>Perfect caffee breakfast</p>
+                    </div>
+                </div>
+                
+            </div> 
+            <a class="carousel-control-prev" href="#slideshow"data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideshow"data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div><!-- fim corrossel -->
+        <!-- Sobre -->
+        <section id="about">
+            <div class="container">
+                <div class="left ">
+                        <h1  class="title">Sobre</h1>
+                         <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium 
+                                 purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+                        </p>
                 </div>
             </div>
-             <div class="carousel-item">
-                <img src="assets/imagen/capa4.jpg" class="img-fluid" alt="cake">
-                <div class="carousel-caption d-none d-md-block ">
-                    <h1>COFFEE</h1>
-                    <p>Perfect caffee breakfast</p>
-                 </div>
-            </div>
-            <div class="carousel-item ">
-                <img src="assets/imagen/capa3.jpg" class="img-fluid" alt="breakfast">
-                <div class="carousel-caption d-none d-md-block ">
-                    <h1>COFFEE</h1>
-                    <p>Perfect caffee breakfast</p>
-                </div>
-            </div>
-            
-        </div> 
-        <a class="carousel-control-prev" href="#slideshow"data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#slideshow"data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div><!-- fim corrossel -->
-    <!-- Sobre -->
-    <section id="about">
-        <div class="container">
-            <div class="left">
-                <div class="title">
-                    <h1>Sobre</h1>
-                </div>
-                <div  >
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore facilis maiores tempora? Provident, veritatis qui culpa veniam voluptas accusamus? Ab inventore vel aliquam maiores.
-                        Consequatur autem nihil accusantium sapiente debitis.orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercício ullamco laboris nisi ut aliquip ex ea commodo consequat. velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "</p>
-                </div>
-            </div>
-        </div>
-    </section><!-- fim Sobre -->
+        </section><!-- fim Sobre -->
 
-    
-    <!-- Serviços -->
-    <section id="service">
-        <div class="container">
-            <div class="title">
-                <h1>Serviços </h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, 
-                    soluta non deserunt ipsam nostrum repellendus voluptatibus illo esse voluptatum, amet repellat, maxime magnam. 
-                </p>
-             </div>
         
-             <div class="row">
-                    <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
-                            <img  class="img-fluid rounded w-50 mx-auto" src="assets/imagen/coffee-beans.png" alt="grão de cafe">
-                            <h4 class="h4">materia prima</h4>
+        <!-- Serviços -->
+        <section id="service">
+                <div class="container">
+                       <div>
+                            <h1 class="title">Serviços </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, 
+                                soluta non deserunt ipsam nostrum repellendus voluptatibus illo esse voluptatum, amet repellat, maxime magnam. 
+                            </p>
+                     </div>
+               
+                  <div class="row">
+                        <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
+                                <img  class="img-fluid rounded w-50 mx-auto" src="assets/imagen/coffee-beans.png" alt="grão de cafe">
+                                <h4 class="h4">materia prima</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Tenetur neque, distinctio nemo quod ducimus natus provident.
+                                    Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus.
+                                </p>
+                        </div>
+                        <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
+                            <img  class="img-fluid rounded w-50 mx-auto"src="assets/imagen/coffee-shop.png" alt="cafeteria">
+                                <h4 class="h4">nossa loja</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Tenetur neque, distinctio nemo quod ducimus natus provident.
+                                    Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
+                            </p>
+                        </div>
+                        <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
+                            <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/delivery.png" alt="moto de entrega">
+                            <h4 class="h4">serviço de entrega</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Tenetur neque, distinctio nemo quod ducimus natus provident.
-                                Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus.
+                                Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
                             </p>
-                    </div>
-                    <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
-                        <img  class="img-fluid rounded w-50 mx-auto"src="assets/imagen/coffee-shop.png" alt="cafeteria">
-                            <h4 class="h4">nossa loja</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div> 
+                        <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
+                            <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/festaeventos.png" alt="moto de entrega">
+                            <h4 class="h4">festas e eventos</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 Tenetur neque, distinctio nemo quod ducimus natus provident.
                                 Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
-                        </p>
+                            </p>
+                        </div>
                     </div>
-                    <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
-                        <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/delivery.png" alt="moto de entrega">
-                        <h4 class="h4">serviço de entrega</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Tenetur neque, distinctio nemo quod ducimus natus provident.
-                            Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
-                        </p>
-                    </div> 
-                    <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
-                        <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/festaeventos.png" alt="moto de entrega">
-                        <h4 class="h4">festas e eventos</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Tenetur neque, distinctio nemo quod ducimus natus provident.
-                            Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
-                        </p>
-                    </div>
+                </div>
+        </div>
+        </section><!-- fim serviços -->
+        <section id="event">
+            <div class="container">
+                <div>
+                    <h1 class="title">Eventos </h1>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, 
+                        soluta non deserunt ipsam nostrum repellendus voluptatibus illo esse voluptatum, amet repellat, maxime magnam. 
+                    </p>
              </div>
-     </div>
-    </section><!-- fim serviços -->
-    <section id="eventos">
-        <div class="container">
-            <div class="title">
-                <h1>Eventos </h1>
-                <p> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, 
-                    soluta non deserunt ipsam nostrum repellendus voluptatibus illo esse voluptatum, amet repellat, maxime magnam. 
-                </p>
-            </div>
-            
-            <button>Solicite seu orçamento</button>
-            <div id="gallery">
-                <a href="assets/imagen/coffee1.jpg"  data-lightbox="roadtrip"><img class=" coffee img-fluid " src="assets/imagen/coffee1.jpg" alt=""> </a>
-                <a href="assets/imagen/coffee2.jpg"  data-lightbox="roadtrip"><img class="coffee img-fluid "src="assets/imagen/coffee2.jpg" alt=""></a>
-                <a href="assets/imagen/coffee3.jpg" data-lightbox="roadtrip"><img class="coffee img-fluid "src="assets/imagen/coffee3.jpg" alt=""></a>
-                <a href="assets/imagen/coffee4.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee4.jpg" alt=""></a>
-                <a href="assets/imagen/coffee5.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee5.jpg" alt=""></a>
-                <a href="assets/imagen/coffee6.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee6.jpg" alt=""></a>
-                <a href="assets/imagen/coffee7.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee7.jpg" alt=""></a>
-                <a href="assets/imagen/coffee8.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee8.jpg" alt=""></a>
-                <a href="assets/imagen/coffee9.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee9.jpg" alt=""></a>
-                <a href="assets/imagen/coffee10.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid "src="assets/imagen/coffee10.jpg" alt=""></a>
-            </div>
+                
+                <button>Solicite seu orçamento</button>
+                <div id="gallery col-sm col-md-auto ">
+                    <a href="assets/imagen/coffee1.jpg"  data-lightbox="roadtrip"><img class=" coffee img-fluid " src="assets/imagen/coffee1.jpg" alt=""> </a>
+                    <a href="assets/imagen/coffee2.jpg"  data-lightbox="roadtrip"><img class="coffee img-fluid "src="assets/imagen/coffee2.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee3.jpg" data-lightbox="roadtrip"><img class="coffee img-fluid "src="assets/imagen/coffee3.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee4.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee4.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee5.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee5.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee6.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee6.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee7.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee7.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee8.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee8.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee9.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid " src="assets/imagen/coffee9.jpg" alt=""></a>
+                    <a href="assets/imagen/coffee10.jpg" data-lightbox="roadtrip"><img  class="coffee img-fluid "src="assets/imagen/coffee10.jpg" alt=""></a>
+                </div>
+        </div>
     </div>
-    </section>
-</div>
-<!-- footer -->
-<div class="footer-dark">
-    <footer>
-        
-       <div class="container">
-           <div class="row">
-               <div class="col-md-3 item">
-                   <h3>Eventos</h3>
-                   <ul>
-                       <li><a href="">Cafe corporativos </a></li>
-                       <li><a href="">Cesta de cafe da manha</a></li>
-                       <li><a href="">casamentos</a></li>
-                       <li><a href="">Aniversarios</a></li>
-                       <li><a href="">Encontros</a></li>
-                   </ul>
-               </div>
-               <div class="col-md-3 item">
-                    <h3>serviços</h3>
-                    <ul>
-                        <li><a href="">Entrega</a></li>
-                        <li><a href="">Serviço de garçom</a></li>
-                        <li><a href="">Organizamos seu evento</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 item">
-                    <h3>serviços</h3>
-                    <ul>
-                        <li><a href="">Orçamento</a></li>
-                        <li><a href="">Pedido</a></li>
-                        <li><a href="">Cancelamentos</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 item">
-                    <h3>Endereço</h3>
-                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus.</p>
-                </div>
-                <div class="col item social">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-youtube"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-google"></i></a>
-                </div>
-             </div> 
-             <p class="copyright"> 
-                 todos direitos reservados-coffee
-             </p>  
+        </section>
+    </div>
+    <!-- footer -->
+    <div class="footer-dark">
+        <footer>
             
-        </div>  
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 item">
+                    <h3>Eventos</h3>
+                    <ul>
+                        <li><a href="">Cafe corporativos </a></li>
+                        <li><a href="">Cesta de cafe da manha</a></li>
+                        <li><a href="">casamentos</a></li>
+                        <li><a href="">Aniversarios</a></li>
+                        <li><a href="">Encontros</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 item">
+                        <h3>serviços</h3>
+                        <ul>
+                            <li><a href="">Entrega</a></li>
+                            <li><a href="">Serviço de garçom</a></li>
+                            <li><a href="">Organizamos seu evento</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>serviços</h3>
+                        <ul>
+                            <li><a href="">Orçamento</a></li>
+                            <li><a href="">Pedido</a></li>
+                            <li><a href="">Cancelamentos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 item">
+                        <h3>Endereço</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-google"></i></a>
+                    </div>
+                </div> 
+                <p class="copyright"> 
+                    todos direitos reservados-coffee
+                </p>  
+                
+            </div>  
 
-    </footer>
-</div>
-<!-- link js -->
-<script src="assets/js/script.js"></script>
+        </footer>
+    </div>
+    <!-- link js -->
+    <script src="assets/js/script.js"></script>
 
 
-<!-- link jquery -->
-<script src="node_modules/jquery/dist/jquery.js"></script>
-<!-- link popper -->
-<script src="node_modules/popper.js/dist/popper.js"></script>
-<!-- link bootstrap -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-<!-- link lighbox -->
-<script src="assets/js/lightbox.js"></script>
+    <!-- link jquery -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- link popper -->
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <!-- link bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- link lighbox -->
+    <script src="assets/js/lightbox.js"></script>
 
 
-</body>
-</html>
+    </body>
+    </html>
