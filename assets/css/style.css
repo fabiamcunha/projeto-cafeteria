@@ -6,20 +6,26 @@
  list-style: none;
 }
 
-#home{
-    height: 200px;
-    background-color: rgb(100, 52, 52);
-}
 
 .logo{
-    font-size: 24px;
+    font-size: 34px;
     margin: 5px 12px;
     font-family:'Style Script', cursive;
+  
 }
 
 .title{
     padding-top: 50px;
     text-align: center;
+}
+/* nav---- */
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /*--------- sobre------- */
@@ -156,5 +162,6 @@ footer{
     .coffee{
         width: 80%;
     }
+    
 
 }

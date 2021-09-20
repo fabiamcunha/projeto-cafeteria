@@ -24,38 +24,41 @@
     
 
     <!-- barra navegação -->
-    <header id="home ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">coffee</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navegation">
-                <ul class="navbar-nav w-100 mx-auto ">
-                    <li class="nav-item ">
-                         <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                         <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Produtos</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Contato</a>
-                    </li>
-              </ul>
-             
-          </nav>
-    </header> <!-- fim navegação -->
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">coffee</a>
+                <!-- botão toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                </button>
+            <!-- menu -->
+                <div class="collapse navbar-collapse" id="navegation">
+                    <ul class="navbar-nav  ml-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                     </ul>
+                </div>
+             </div>
+            </nav>
+    <!-- fim navegação -->
    
     <!-- ----inicio carrossel -->
-    <section id="capa">
-  <div id="slideshow" class="slide carousel">
+   
+  <div id="slideshow" class="slide carousel" data-ride="carousel">
       <!--  botao de passar caroosel para  o lado-->
         <ol class="carousel-indicators">
             <li data-target="#slideshow" data-slide-to="0" class="active"></li>
@@ -89,7 +92,7 @@
                 
             </div> 
             <a class="carousel-control-prev" href="#slideshow"data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <span class="carousel-control-prev-icon"aria-hidden="true"></span>
             </a>
             <a class="carousel-control-next" href="#slideshow"data-slide="next">
                 <span class="carousel-control-next-icon"></span>
@@ -105,12 +108,12 @@
                         </p>
                 </div>
             </div>
-        </section><!-- fim Sobre -->
+       
 
-        
+        </section>
         <!-- Serviços -->
         <section id="service">
-                <div class="container">
+                <div class="container-fluid ">
                        <div>
                             <h1 class="title">Serviços </h1>
                             <p>
@@ -119,8 +122,8 @@
                             </p>
                      </div>
                
-                  <div class="row">
-                        <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
+                  <div class="row justify-content-center">
+                        <div class="card col-xs-12 col-sm-8 col-md-4 col-lg-2 shadow-lg p-3 mb-5  mx-2">
                                 <img  class="img-fluid rounded w-50 mx-auto" src="assets/imagen/coffee-beans.png" alt="grão de cafe">
                                 <h4 class="h4">materia prima</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -128,7 +131,7 @@
                                     Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus.
                                 </p>
                         </div>
-                        <div class="card col-sm col-md shadow-lg p-3 mb-5  mx-2">
+                        <div class="card col-xs-12 col-sm-8 col-md-4 col-lg-2   shadow-lg p-3 mb-5  mx-2">
                             <img  class="img-fluid rounded w-50 mx-auto"src="assets/imagen/coffee-shop.png" alt="cafeteria">
                                 <h4 class="h4">nossa loja</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -136,7 +139,7 @@
                                     Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
                             </p>
                         </div>
-                        <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
+                        <div class="card col-xs-12 col-sm-8 col-md-4 col-lg-2 shadow-lg p-3 mb-5 mx-2">
                             <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/delivery.png" alt="moto de entrega">
                             <h4 class="h4">serviço de entrega</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -144,7 +147,7 @@
                                 Fuga, ipsa accusantium. Iure commodi provident fugiat esse maiores itaque enim ducimus. 
                             </p>
                         </div> 
-                        <div class="card col-sm col-md shadow-lg p-3 mb-5 mx-2">
+                        <div class="card col-xs-12 col-sm-8 col-md-4 col-lg-2  shadow-lg p-3 mb-5 mx-2">
                             <img class="img-fluid rounded w-50 mx-auto"src="assets/imagen/festaeventos.png" alt="moto de entrega">
                             <h4 class="h4">festas e eventos</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
