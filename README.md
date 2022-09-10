@@ -1,8 +1,11 @@
-# projeto landing page cafeteria
+# Projeto landing page desenvolvido em bootstrap
 
-## objetivo 
-desenvolver um carrossel e um card com bootstrap,
-e uma galeria de fotos com lightbox .
+## Objetivo
+
+ Aplicar conhecimentos e habilidades em bootstrap.
+  
+  
+
 
 
 ## tecnologias
