@@ -5,7 +5,10 @@
  box-sizing: border-box;
  list-style: none;
 }
+body{
+    background-color: #FFFBF2;
 
+}
 
 .logo{
     font-size: 34px;
@@ -27,52 +30,31 @@
     font-size: 24px;
     font-weight: 500;
 }
-
-/*--------- sobre------- */
-#about{
-
-    height: 100vh;
-    background-image: url("../imagen/bghistorycoffe.jpg");
-    background-position: 70% 50%;
-    background-size: cover;
- 
+.section-title {
+    text-align: center;
 }
-
-.left{
-    margin-top: 50px;
-    color:#565048 ;
-    float: right;
-    width: 50%;
-    height: auto;
-
-}
-
 /* service */
-#service{
-    background-color: #F0E5D5;
-}
-.row{   
-    margin-top: 30px;
-}
-
-.card{
-    color:#565048;
-    background-color:#fff;
-    transition: 1s ease;
-}
-.card:hover{
- background-color:rgb(63, 38, 5);
- transform: translateY(-1.5em);
- color: white;
- 
-}
-.card .h4{
-    transition-delay:0.5s ease;
-}
-.card p{
-    transition-delay: 0.1s ease;
+.service-icon {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background-color: #DA9F5B;
 }
 
+/* selo */
+#selo{
+    background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(26, 12, 4, 0.925)),
+    url("../imagen/bg.jpg") ;
+    background-size: cover;
+    padding: 50px;
+   
+}
 /* GALERIA */
 
 .coffee{
@@ -82,8 +64,8 @@
 
 }
 button{
-    background-color: #565048;
-    color: #fff;
+    background-color: #DA9F5B;
+    color: #33211D;
     padding: 4px 12px;
     margin: 10px;
     border-radius: 10px;
@@ -93,7 +75,11 @@ button{
 footer{
     padding: 50px 0;
     color:#fff;
-    background: #F69C1A ;
+    background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(26, 12, 4, 0.925)),
+    url("../imagen/bg.jpg") ;
+    background-size: cover;
+    opacity: 0,1;
+  
     
 }
 footer h3{
