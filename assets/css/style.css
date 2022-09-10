@@ -21,6 +21,10 @@ body{
     padding-top: 50px;
     text-align: center;
 }
+h4 {
+    color :#33211D;
+    font-weight: bold;
+}
 /* nav---- */
 .navbar-nav{
     text-align: center;
